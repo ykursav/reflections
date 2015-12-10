@@ -1,0 +1,27 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+I need to initialize to use git. When I initialize the git it is creating .git folder which includes config objects etc.
+
+How is the staging area different from the working directory and the repository?
+
+Working directory is a place which we store our recent files. Stagging area is a area which is not commited yet it is temporary place which will store in git as a commit in future.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+We can add only one file we changed. I think this is the easiest solution but sometimes may not work. We can check it with our comments comments shouldn't contain more than one logical change.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+We can organize our branches for different cases. Our program may have different cases like different languages or different diffuculty levels. We can open a branch for each levels. In this way we can get rid of confusion of linear branching. If we use linear commits without branches, we have to check our old commits for other languages or difficulty levels and if we solve a bug after that commit our old program with different difficulty level contains this bug. But in branch sense we are in the same level with master and this is not containing old bugs even we can solve bugs in our branch and we can add this solution every branch individually. We can think branches as a new linear commits or new programs based on our old program.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams are showing entire structure of our git. In this way, we can see which parts are accessible and which is not.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
