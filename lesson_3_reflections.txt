@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 
 When I finished my work, I can push everything to remote repository. In my opinion, storing unfinished jobs in github has no sense
 because you can work on them with offline environment then you can push when its ready.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+It can make some confusion if it will update when I was working an unfinished code. There will be another repositories and maybe there will be some codes changed without my permisson.
