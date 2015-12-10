@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When I finished my work, I can push everything to remote repository. In my opinion, storing unfinished jobs in github has no sense
+because you can work on them with offline environment then you can push when its ready.
