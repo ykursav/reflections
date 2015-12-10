@@ -23,5 +23,11 @@ Diagrams are showing entire structure of our git. In this way, we can see which 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+When we merge two diagrams, we will get only one branch with one commit which is merged two branches. Because we can not see the hierarchy of structure other way. It is the best way to show it is working.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+Automatically merging is a good property of a git. But as shown in videos it follows a procedure which is comparing new line is exist last commit or not. 
+
+Manually merging is quit exhaustive job. But sometimes it can be useful and better. Because git can not merge each files because of conflictions. Conflictions show us if we merge those files we will lose some important information in our progarm.
